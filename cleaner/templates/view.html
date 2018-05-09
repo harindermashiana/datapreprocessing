@@ -1,0 +1,9 @@
+<p><a href="{% url 'edit' %}">ADD DUMMY VARIABLE</a></p>
+<p><a href="{% url 'column' %}">remove a column</a></p>
+{% for w in word %}
+ {% for x in w %}
+{{x}}
+</br>
+{% endfor %}
+{% endfor %}
+
